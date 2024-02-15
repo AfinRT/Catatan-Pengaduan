@@ -1,0 +1,244 @@
+* {
+  font-family: Arial, sans-serif;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  color: #333;
+  margin-top: 70px;
+  border-bottom: 2px solid #33333339;
+  padding-bottom: 15px;
+  padding-left: 50px;
+}
+.fa-exclamation {
+  color: #ffffff;
+  width: 50px;
+  height: 50px;
+  background-color: #000000;
+  border-radius: 50%; /* Mengubah nilai border-radius menjadi 50% untuk membuat lingkaran */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center; /* Tengahkan elemen dalam form */
+}
+
+label {
+  margin-right: 10px;
+}
+
+select {
+  padding: 8px;
+}
+
+input[type="submit"] {
+  padding: 8px 12px;
+  background-color: rgb(22, 107, 210); /* Green background color */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: rgb(20, 93, 182); /* Darker green on hover */
+}
+select {
+  border-radius: 10px;
+  width: 250px;
+  height: 35px;
+}
+.filter {
+  padding: 10px;
+  margin-left: auto;
+  margin-right: 0px;
+  border-radius: 10px; /* Menambahkan margin-right pada elemen <select> */
+}
+.filter i {
+  margin-left: auto;
+  margin-right: 0px;
+  margin-bottom: 5px;
+}
+.btn0 {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border: 1px solid;
+  padding: 7px 40px;
+  margin-top: px;
+  border-radius: 8px;
+  transition: transform 0.4s;
+  z-index: 0;
+}
+.btn0:hover {
+  background-color: #3562aa;
+  color: #ffffff;
+  border: 2px solid black;
+}
+textarea {
+  border-radius: 8px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan untuk memberikan efek elegan */
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #f8f8f8; /* Warna latar belakang yang lebih ringan */
+  font-weight: bold;
+  text-align: center;
+  top: 0;
+  z-index: 1;
+}
+tr:hover {
+  background-color: #dddddd87; /* Efek hover yang lebih ringan */
+}
+.edit-icon {
+  color: #ffffff; /* Ganti warna sesuai keinginan Anda */
+  padding: 8px;
+  background-color: #1500ff;
+  border-radius: 5px;
+}
+
+.delete-icon {
+  color: #ffffff; /* Ganti warna sesuai keinginan Anda */
+  padding: 8px;
+  background-color: #ff0000;
+  border-radius: 5px;
+}
+.edit-icon:hover {
+  color: #ffffff; /* Ganti warna sesuai keinginan Anda */
+  padding: 8px;
+  background-color: #1000c2;
+  border-radius: 5px;
+}
+
+.delete-icon:hover {
+  color: #ffffff; /* Ganti warna sesuai keinginan Anda */
+  padding: 8px;
+  background-color: #c60202;
+  border-radius: 5px;
+}
+.eye-icon {
+  color: #ffffff; /* Ganti warna sesuai keinginan Anda */
+  padding: 8px;
+  background-color: #eddf4c;
+  border-radius: 5px;
+}
+.eye-icon:hover {
+  color: #ffffff; /* Ganti warna sesuai keinginan Anda */
+  padding: 8px;
+  background-color: #cdbf23;
+  border-radius: 5px;
+}
+.check-icon {
+  color: #ffffff; /* Ganti warna sesuai keinginan Anda */
+  padding: 8px;
+  background-color: #4ab162;
+  border-radius: 5px;
+}
+.check-icon:hover {
+  color: #ffffff; /* Ganti warna sesuai keinginan Anda */
+  padding: 8px;
+  background-color: #3d9752;
+  border-radius: 5px;
+}
+.download-icon {
+  color: #ffffff; /* Ganti warna sesuai keinginan Anda */
+  padding: 8px;
+  background-color: #000000;
+  border-radius: 5px;
+}
+.download-icon:hover {
+  color: #ffffff; /* Ganti warna sesuai keinginan Anda */
+  padding: 8px;
+  background-color: #484848;
+  border-radius: 5px;
+}
+/* CSS SweetAlert */
+
+.custom-popup-class1 {
+  width: 500px !important;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.custom-title-class {
+  font-size: 1.5rem !important;
+}
+
+.custom-content-class1 {
+  font-size: 1rem !important;
+}
+
+.custom-confirm-button-class1,
+.custom-cancel-button-class1 {
+  width: 100px;
+  height: 40px;
+  font-size: 1rem !important;
+  border-radius: 8px;
+}
+
+/*pop Up Input*/
+
+.custom-popup-class {
+  width: 600px !important;
+  height: 1000px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-title-class {
+  font-size: 1.5rem !important;
+  margin-bottom: 20px;
+}
+
+.custom-content-class {
+  font-size: 1rem !important;
+  text-align: left;
+}
+
+.custom-confirm-button-class,
+.custom-cancel-button-class {
+  width: 100px;
+  height: 40px;
+  font-size: 1rem !important;
+  border-radius: 8px;
+  position: relative;
+  left: 150px;
+}
+.swal2-input,
+.swal2-select,
+.swal2-textarea {
+  width: 100%; /* Lebar penuh */
+  box-sizing: border-box;
+  margin: 10px 0;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+.left-align-label {
+  text-align: left !important;
+  margin-bottom: 5px;
+  width: 100% !important;
+  font-weight: bold;
+}

@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  display: flex;
+}
+
+nav {
+  background-color: #111;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+}
+
+.nav-search {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 380px;
+  height: 37px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  background: #fff;
+  position: relative;
+  right: 35vh; /* Adjust the right position as needed */
+  top: 10px;
+}
+.user-info-container {
+  display: flex;
+  color: #ffffff;
+  align-items: center;
+  position: relative;
+  left: 500px;
+}
+.sidebar {
+  height: 100%;
+  width: 270px;
+  position: fixed;
+  background-color: #141414;
+  padding-top: 60px; /* Adjust top padding to match navbar height */
+  z-index: 6;
+  margin-top: 0;
+  top: -55px;
+  left: -10px;
+}
+
+.sidebar a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+  margin-left: 50px;
+  margin-top: 25px;
+  position: relative;
+  top: 70px;
+}
+
+.sidebar a:hover {
+  color: #b3b3b3;
+}
+
+.sidebar i {
+  margin-right: 10px;
+}
+
+.content {
+  margin-left: 250px; /* Adjust this value to match the width of the sidebar */
+  padding: 20px;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+  padding-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.user-info-container {
+  position: relative;
+  left: 160vh;
+  bottom: 40px;
+}
+/* Add this CSS for the dropdown */
+.nav-dropdown1 {
+  position: relative;
+  display: inline-block;
+  margin-left: 95px;
+  border-left: 2px solid #ffffff67;
+}
+
+.nav-dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.nav-dropdown-content1 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.nav-dropdown-content1 a:hover {
+  background-color: #d8d8d8;
+}
+
+.nav-dropdown1:hover .nav-dropdown-content1 {
+  display: block;
+}
+.nav-dropdown1 .nav-dropbtn1 {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  padding: 14px 30px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  font-weight: normal;
+}
+/* Add this CSS for the welcome message */
+.welcome-message {
+  color: #ffffff;
+  margin-right: 100px;
+}
+
+/* ... existing styles ... */
+
+/* User info container styles */
